@@ -19,3 +19,7 @@
 .display-4 {
   display: inline;
 }
+
+.jumbotron {
+  display: none;
+}
