@@ -2,37 +2,13 @@ function button_click(x) {
   if (x != "home") {
     document.getElementById("logo").style.display = "none";
 
-    if (x == "htmlCSS") {
-      document.getElementById("htmlArea").style.display = "block";
-      document.getElementById("jsArea").style.display = "none";
-      document.getElementById("csharpArea").style.display = "none";
-      document.getElementById("aspArea").style.display = "none";
-    }
-    if (x == "Jscript") {
-      document.getElementById("jsArea").style.display = "block";
-      document.getElementById("htmlArea").style.display = "none";
-      document.getElementById("csharpArea").style.display = "none";
-      document.getElementById("aspArea").style.display = "none";
-    }
-    if (x == "cSharp") {
-      document.getElementById("csharpArea").style.display = "block";
-      document.getElementById("jsArea").style.display = "none";
-      document.getElementById("aspArea").style.display = "none";
-      document.getElementById("htmlArea").style.display = "none";
-    }
-    if (x == "aspN") {
-      document.getElementById("aspArea").style.display = "block";
-      document.getElementById("htmlArea").style.display = "none";
-      document.getElementById("jsArea").style.display = "none";
-      document.getElementById("csharpArea").style.display = "none";
+    if (x == "about") {
+      document.getElementById("aboutArea").style.display = "block";
     }
   } else {
     console.log(x);
     document.getElementById("logo").style.display = "block";
-    document.getElementById("htmlArea").style.display = "none";
-    document.getElementById("jsArea").style.display = "none";
-    document.getElementById("csharpArea").style.display = "none";
-    document.getElementById("aspArea").style.display = "none";
+    document.getElementById("aboutArea").style.display = "none";
     start();
   }
 }
