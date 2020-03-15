@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Oxanium&display=swap");
-.nav li a {
+.nav-link,
+.clock {
   font-family: "Oxanium";
   color: #000000;
 }
@@ -21,4 +22,8 @@
 .genList li {
   padding-top: 0.5em;
   padding-bottom: 1em;
+}
+
+#blankMenu {
+  visibility: hidden;
 }
