@@ -2,6 +2,7 @@
 function button_click(x) {
   if (x != "home") {
     document.getElementById("logo").style.display = "none";
+    document.getElementById("frontTitle").style.display = "none";
 
     if (x == "about") {
       document.getElementById("projectsArea").style.display = "none";
@@ -26,6 +27,7 @@ function button_click(x) {
     document.getElementById("projectsArea").style.display = "none";
     document.getElementById("contactArea").style.display = "none";
     document.getElementById("logo").style.display = "block";
+    document.getElementById("frontTitle").style.display = "block";
   }
 }
 
